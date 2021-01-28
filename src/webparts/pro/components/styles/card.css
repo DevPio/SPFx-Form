@@ -1,0 +1,155 @@
+.container{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.containerCard{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1000px;
+}
+
+.card_item{
+    padding: 32px;
+    background-color: rgb(112, 187, 255);
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    width: 200px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+
+}
+* ::-webkit-scrollbar-thumb {
+    background: #c8c8c8;
+}
+.card_item:hover{
+    background-color: #eee;
+    color: #ccc;
+}
+.especificao{
+    width: 300px;
+    height: 100px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    scrollbar-arrow-color: black;
+    position: relative;
+}
+.item_select{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.item_select, input[type='checkbox']{
+    margin-left: 10px;
+   
+
+    
+}
+.card_item_unidade{
+    padding: 32px;
+    background-color: rgb(235, 137, 95);;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    width: 200px;
+}
+input[type='checkbox']{
+    margin-left: 10px;
+   
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border: 2px solid #c8c8c8;
+    box-shadow: inset 0 0 1px #c8c8c8;
+}
+.ativo{
+    background-color: rgb(59, 59, 59);
+}
+
+.label_edit{
+    color: rgb(96, 94, 92);
+    border-style: solid;
+    border-color: rgb(96, 94, 92);
+    border-width: 0px;
+    font-size: 13.3333px;
+    font-family: "Segoe UI", wf_segoe-ui_normal, helvetica, arial, sans-serif;
+    line-height: 17px;
+}
+
+.items_check{
+    cursor: pointer;
+}
+.cancelado{
+    background-color: rgb(255, 64, 64);
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+#workbenchPageContent { max-width : none ; } .SPCanvas-canvas , .CanvasZone { max-width : none ; }
+
+
+
+@media only screen and  (max-width: 480px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    thead{
+        display: none;
+    }
+
+    tbody td{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .tbody-tr{
+        border: 1px solid rgb(61, 61, 61);
+        
+    }
+    tr td:nth-child(1){
+        margin-bottom: 20px;
+    }
+    .containerCard{
+       flex-direction: column;
+       justify-content: center;
+    }
+    .containerCard{
+        width: 100px;
+        flex: 1;
+        margin-bottom: 10px;
+        
+    }
+    .card_item_unidade{
+        margin-bottom: 10px;
+    }
+    .card_item{
+        margin-bottom: 10px;
+    }
+
+    .btn-group, .btn-group-vertical {
+       
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .btn-group-vertical>.btn, .btn-group>.btn {
+        
+        margin-bottom: 10px;
+    }
+    .btn-group-vertical>.btn, .btn-group>.btn {
+        
+        margin-bottom: 10px;
+    }
+    tr{
+        margin-bottom: 10px;
+    }
+}
